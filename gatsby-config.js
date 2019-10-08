@@ -51,14 +51,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              aliases: {
-                sh: 'shell',
-                es6: 'javascript',
-                env: 'bash',
-                mdx: 'md',
-                '.json': 'json',
-                text: 'text',
-              },
+              inlineCodeMarker: '%',
             },
           },
           `gatsby-remark-copy-linked-files`,
