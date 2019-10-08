@@ -2,7 +2,7 @@ module.exports = {
   title: `Sam Roebuck - Research Blog`,
   description: `Degree Project Research Blog`,
   author: `Sam Roebuck`,
-  introduction: `This is my research blog for my final year Digital Media Project! Feel free to head of to my Github and see how the project is coming along!`,
+  introduction: `Research blog for my final year Digital Media Project! Feel free to head of to my Github and see how the project is coming along!`,
   siteUrl: `https://blog.samroebuck.dev`, // Your blog site url
   social: {
     twitter: `https://twitter.com/samroebuck_`, // Your Twitter account
