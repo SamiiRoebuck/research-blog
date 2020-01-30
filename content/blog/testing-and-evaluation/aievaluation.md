@@ -4,114 +4,16 @@ date: 2019-5-31 16:21:13
 category: 'testing and evaluation'
 ---
 
-# Getting Started 😎
+## Intended features required from the API
 
-## 1. Create a Gatsby site.
+| MoSCoW   | Feature                                                                      | Reason                                                                                                                                                                                                                                                                                                     | Google AutoML | IBM Watson |
+| -------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------- |
+| Must     | Work with Tensorflow.js                                                      | this is the library that makes using image classification models in web apps using JavaScript possible                                                                                                                                                                                                     | &#x2611;      | &#x2611;   |
+| Must     | Have the option for cloud/virtual machines being used for the model training | Because my laptop doesn't have the compute power to train a comprehensive model in a acceptable amount of time                                                                                                                                                                                             | &#x2611;      | &#x2611;   |
+| Must     | Be well documented with a good amount of information online about use cases  | Because I am new to using this kind of technology having a good bank of information to use will be beneficial as it is pretty much a given that I will run into issues/bugs                                                                                                                                | &#x2611;      | &#x2612;   |
+| Should   | Have a usable GUI for training the model as well as a well documented CLI    | Because although I am confident using CLI's, a good GUI will speed up the process                                                                                                                                                                                                                          | &#x2611;      | &#x2612;   |
+| Should   | Have a free tier for experimenting with and reasonable pricing for later use | Because having a certain amount of compute hours for free will be helpful to determine the quality of the trained model without having to invest capital, and having a reasonable price for higher level use is important as as a student I don't have the expendable income to support high cost API fees | &#x2611;      | &#x2611;   |
+| Could    | A base model that has already been pre-trained that can be extended upon     | Because having a model that can be built upon rather than starting from scratch will be quicker                                                                                                                                                                                                            | &#x2612;      | &#x2612;   |
+| Will not | Have the model being deployed only on the cloud                              | As the web app will be a PWA, the model will need to be downloaded and deployed for edge devices to work offline                                                                                                                                                                                           | &#x2612;      | &#x2611;   |
 
-```sh
-# create a new Gatsby site using the blog starter
-$ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
-
-> If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
-
-```sh
-$ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
-
-## 2. Start developing.
-
-```sh
-$ cd my-blog-starter/
-$ npm start
-# open localhost:8000
-```
-
-## 3. Add your content
-
-You can write...
-
-- contents to blog in `content/blog` directory.
-- resume `content/__about` directory.
-
-> With markdown syntax and some meta data
-
-### Support script for creating new post
-
-![](assets/cli-tool-example.gif)
-
-```sh
-$ npm run post
-```
-
-## 4. Fix meta data
-
-You can fix meta data of blog in `/gatsby-meta-config.js` file.
-
-## 5. Publish with [netlify](https://netlify.com)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JaeYeopHab/gatsby-starter-bee)
-
-:bulb: if you want to deploy github pages, add following script to package.json
-
-```json
-"scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${your github id}/${github page name}.github.io.git'"
-}
-```
-
-# :memo: Write a post!
-
-```
-content
-├── __about
-└── blog
-```
-
-- You can register your resume on the web. (in `__about` directory)
-- You can register your post. (in `blog` directory)
-
-# 🧐 Customize!
-
-## Gatsby config
-
-```
-/root
-├── gatsby-browser.js // font, polyfill, onClientRender ...
-├── gatsby-config.js // Gatsby config
-├── gatsby-meta-config.js // Template meta config
-└── gatsby-node.js // Gatsby Node config
-```
-
-## Structure
-
-```
-src
-├── components // Just component with styling
-├── layout // home, post layout
-├── pages // routing except post: /(home), /about
-├── styles
-│   ├── code.scss
-│   ├── dark-theme.scss
-│   ├── light-theme.scss
-│   └── variables.scss
-└── templates
-    ├── blog-post.js
-    └── home.js
-```
-
-## Style
-
-You can customize color in `src/styles` directory.
-
-```
-src/styles
-├── code.scss
-├── dark-theme.scss
-├── light-theme.scss
-└── variables.scss
-```
-
-> Welcome to gatsby-starter-bee!
-> Happy blogging! 👻
+From this MoSCoW analyse of the two most popular tools for creating custom machine learning models, it is clear that the most logical option to go for is Google AutoML, this is due to the Google API meeting all of the must have features and IBM Watson only being able to deploy models on the cloud which is not suitable for this project.
