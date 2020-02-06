@@ -1,5 +1,5 @@
 ---
-title: 'Recyclenow.com'
+title: 'Competitor: Recyclenow.com'
 date: 2019-5-31 16:21:13
 category: 'competitor-analysis'
 ---
