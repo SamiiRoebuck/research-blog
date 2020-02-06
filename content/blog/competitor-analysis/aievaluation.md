@@ -1,7 +1,7 @@
 ---
 title: 'Google Auto ML v IBM Watson'
 date: 2019-5-31 16:21:13
-category: 'testing and evaluation'
+category: 'competitor-analysis'
 ---
 
 ## Intended features required from the API
