@@ -1,7 +1,7 @@
 ---
 title: 'Competitor: whatgoeswhere.org.uk'
 date: 2019-5-31 16:21:13
-category: 'competitor-analysis'
+category: 'competitor analysis'
 ---
 
 What Goes Where provides the same informations as the Leeds Council website in a more interesting way. The site includes additional features that the prior competitor doesn’t, such as animations and the user of colour.

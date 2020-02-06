@@ -1,7 +1,7 @@
 ---
 title: 'Competitor: Recyclenow.com'
 date: 2019-5-31 16:21:13
-category: 'competitor-analysis'
+category: 'competitor analysis'
 ---
 
 Recyclenow is the most similar to the intended functions of Kerbit, allowing users to find where to recycle specific items, where recycling centres are based on their location and what items go in which household waste bin.
