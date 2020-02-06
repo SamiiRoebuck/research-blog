@@ -4,114 +4,28 @@ date: 2019-5-31 16:21:13
 category: 'competitor-analysis'
 ---
 
-# Getting Started 😎
+What Goes Where provides the same informations as the Leeds Council website in a more interesting way. The site includes additional features that the prior competitor doesn’t, such as animations and the user of colour.
 
-## 1. Create a Gatsby site.
+---
 
-```sh
-# create a new Gatsby site using the blog starter
-$ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+### _Issue_
 
-> If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
+While the information is displayed in a more user-friendly way, with common items such as tins and cardboard being easily accessible in one click, the pages do eventually redirect to the Leeds Council website if the user requires more information so still suffers from the same issues of having long pages of bullet points that the prior competitor does.
 
-```sh
-$ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+### _Fix_
 
-## 2. Start developing.
+Kerbit will implement these features that enhance user experience, such as animations, and combine it with giving the user access to simple information.
 
-```sh
-$ cd my-blog-starter/
-$ npm start
-# open localhost:8000
-```
+---
 
-## 3. Add your content
+### _Issue_
 
-You can write...
+The site seems to be designed primarily for mobile with it simply being scaled up with an added background gradient on desktop.
 
-- contents to blog in `content/blog` directory.
-- resume `content/__about` directory.
+### _Fix_
 
-> With markdown syntax and some meta data
+Kerbit will take advantage of the desktop platform by having a website that advertises the app and gives the option of downloading the app, rather than just scaling it up.
 
-### Support script for creating new post
+---
 
-![](assets/cli-tool-example.gif)
-
-```sh
-$ npm run post
-```
-
-## 4. Fix meta data
-
-You can fix meta data of blog in `/gatsby-meta-config.js` file.
-
-## 5. Publish with [netlify](https://netlify.com)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JaeYeopHab/gatsby-starter-bee)
-
-:bulb: if you want to deploy github pages, add following script to package.json
-
-```json
-"scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${your github id}/${github page name}.github.io.git'"
-}
-```
-
-# :memo: Write a post!
-
-```
-content
-├── __about
-└── blog
-```
-
-- You can register your resume on the web. (in `__about` directory)
-- You can register your post. (in `blog` directory)
-
-# 🧐 Customize!
-
-## Gatsby config
-
-```
-/root
-├── gatsby-browser.js // font, polyfill, onClientRender ...
-├── gatsby-config.js // Gatsby config
-├── gatsby-meta-config.js // Template meta config
-└── gatsby-node.js // Gatsby Node config
-```
-
-## Structure
-
-```
-src
-├── components // Just component with styling
-├── layout // home, post layout
-├── pages // routing except post: /(home), /about
-├── styles
-│   ├── code.scss
-│   ├── dark-theme.scss
-│   ├── light-theme.scss
-│   └── variables.scss
-└── templates
-    ├── blog-post.js
-    └── home.js
-```
-
-## Style
-
-You can customize color in `src/styles` directory.
-
-```
-src/styles
-├── code.scss
-├── dark-theme.scss
-├── light-theme.scss
-└── variables.scss
-```
-
-> Welcome to gatsby-starter-bee!
-> Happy blogging! 👻
+While this competitor provides the user the needed information in an arguably more interesting way, it still doesn’t provide the optimum experience for the user.
