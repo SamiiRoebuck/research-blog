@@ -4,114 +4,21 @@ date: 2019-5-31 16:21:13
 category: 'competitor-analysis'
 ---
 
-# Getting Started 😎
+Recyclenow is the most similar to the intended functions of Kerbit, allowing users to find where to recycle specific items, where recycling centres are based on their location and what items go in which household waste bin.
+This website also has the same issue as the prior two with the user having to be directed to long pages of bullet points, in this case there is an A-Z of items that can be recycled which is not very appealing to navigate through.
 
-## 1. Create a Gatsby site.
+---
 
-```sh
-# create a new Gatsby site using the blog starter
-$ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+### _Feature_
 
-> If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
+It has the most appealing styling of the all the competitors, with a clean colour palette used consistently throughout the site and uses green shades throughout to bring in the connotations of the environment. Kerbit will emulate this clean design and colour choices within the app.
 
-```sh
-$ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+---
 
-## 2. Start developing.
+### _Issue_
 
-```sh
-$ cd my-blog-starter/
-$ npm start
-# open localhost:8000
-```
+While this site is, in many ways, an improvement on the prior two, it still lacks the conciseness, ease of use and implementation of modern technologies that Kerbit aims to offer users.
 
-## 3. Add your content
+### _Fix_
 
-You can write...
-
-- contents to blog in `content/blog` directory.
-- resume `content/__about` directory.
-
-> With markdown syntax and some meta data
-
-### Support script for creating new post
-
-![](assets/cli-tool-example.gif)
-
-```sh
-$ npm run post
-```
-
-## 4. Fix meta data
-
-You can fix meta data of blog in `/gatsby-meta-config.js` file.
-
-## 5. Publish with [netlify](https://netlify.com)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JaeYeopHab/gatsby-starter-bee)
-
-:bulb: if you want to deploy github pages, add following script to package.json
-
-```json
-"scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${your github id}/${github page name}.github.io.git'"
-}
-```
-
-# :memo: Write a post!
-
-```
-content
-├── __about
-└── blog
-```
-
-- You can register your resume on the web. (in `__about` directory)
-- You can register your post. (in `blog` directory)
-
-# 🧐 Customize!
-
-## Gatsby config
-
-```
-/root
-├── gatsby-browser.js // font, polyfill, onClientRender ...
-├── gatsby-config.js // Gatsby config
-├── gatsby-meta-config.js // Template meta config
-└── gatsby-node.js // Gatsby Node config
-```
-
-## Structure
-
-```
-src
-├── components // Just component with styling
-├── layout // home, post layout
-├── pages // routing except post: /(home), /about
-├── styles
-│   ├── code.scss
-│   ├── dark-theme.scss
-│   ├── light-theme.scss
-│   └── variables.scss
-└── templates
-    ├── blog-post.js
-    └── home.js
-```
-
-## Style
-
-You can customize color in `src/styles` directory.
-
-```
-src/styles
-├── code.scss
-├── dark-theme.scss
-├── light-theme.scss
-└── variables.scss
-```
-
-> Welcome to gatsby-starter-bee!
-> Happy blogging! 👻
+The development of Kerbit will draw on the strengths and weakness of these competitors to ensure that the end user has the best possible experience.

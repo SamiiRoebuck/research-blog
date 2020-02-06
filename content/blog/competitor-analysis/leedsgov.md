@@ -4,114 +4,34 @@ date: 2019-5-31 16:21:13
 category: 'competitor-analysis'
 ---
 
-# Getting Started 😎
+The Leeds Council website is the official source of recycling information for residents within the Leeds area.
 
-## 1. Create a Gatsby site.
+---
 
-```sh
-# create a new Gatsby site using the blog starter
-$ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+### _Issue_
 
-> If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
+It provides all the information needed, however the long pages of bullet points combined with the lack of a search function that searches just the recycling information it can be quite difficult to get through and hard to find the required information quickly.
 
-```sh
-$ npm install -g gatsby-cli
-$ gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
-```
+### _Fix_
 
-## 2. Start developing.
+Kerbit will make this information easier to access by only showing the recycling information related to the items that the user is concerned with.
 
-```sh
-$ cd my-blog-starter/
-$ npm start
-# open localhost:8000
-```
+---
 
-## 3. Add your content
+### _Issue_
 
-You can write...
+The site is responsive and works on mobile, however it is clearly not fully optimised for mobile use as the aforementioned long lists of bullet point do make for extremely long pages to scroll through when on a mobile device.
 
-- contents to blog in `content/blog` directory.
-- resume `content/__about` directory.
+### _Fix_
 
-> With markdown syntax and some meta data
+As Kerbit will be a PWA it will be designed and built fully mobile focused, with the content and user interface fully optimised for smaller screens.
 
-### Support script for creating new post
+---
 
-![](assets/cli-tool-example.gif)
+### _Issue_
 
-```sh
-$ npm run post
-```
+While this competitor does provide all the information necessary, the minimal styling, large sections of copy and long scrolling pages do not make it great for user experience.
 
-## 4. Fix meta data
+### _Fix_
 
-You can fix meta data of blog in `/gatsby-meta-config.js` file.
-
-## 5. Publish with [netlify](https://netlify.com)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JaeYeopHab/gatsby-starter-bee)
-
-:bulb: if you want to deploy github pages, add following script to package.json
-
-```json
-"scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${your github id}/${github page name}.github.io.git'"
-}
-```
-
-# :memo: Write a post!
-
-```
-content
-├── __about
-└── blog
-```
-
-- You can register your resume on the web. (in `__about` directory)
-- You can register your post. (in `blog` directory)
-
-# 🧐 Customize!
-
-## Gatsby config
-
-```
-/root
-├── gatsby-browser.js // font, polyfill, onClientRender ...
-├── gatsby-config.js // Gatsby config
-├── gatsby-meta-config.js // Template meta config
-└── gatsby-node.js // Gatsby Node config
-```
-
-## Structure
-
-```
-src
-├── components // Just component with styling
-├── layout // home, post layout
-├── pages // routing except post: /(home), /about
-├── styles
-│   ├── code.scss
-│   ├── dark-theme.scss
-│   ├── light-theme.scss
-│   └── variables.scss
-└── templates
-    ├── blog-post.js
-    └── home.js
-```
-
-## Style
-
-You can customize color in `src/styles` directory.
-
-```
-src/styles
-├── code.scss
-├── dark-theme.scss
-├── light-theme.scss
-└── variables.scss
-```
-
-> Welcome to gatsby-starter-bee!
-> Happy blogging! 👻
+Kerbit aims to make the task of recycling easier for people by making the UX as clear as possible.
