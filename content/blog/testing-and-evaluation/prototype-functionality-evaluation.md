@@ -36,6 +36,10 @@ _Current data set count: 310_
 
 _Current data set count: 292_
 
+There is differing levels of success when predicting metals, when the item is something akin to a tin, bottle cap or can the successful predication level is quite high, especially considering the relatively low amount of image in the dataset assigned to this category. However where the preictions in this category fail are when it is tested on items such reusable metal water bottles or metal lunch boxs, broadly speaking items that are traditionally plastic.
+
+Because of this there will need to be a much higher percentage of this section of the dataset commited to training the model on these items so that it can disinguish them from items that may be the same shape but are a different material
+
 ### Paper
 
 _Current data set count: 490_
