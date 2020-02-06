@@ -1,7 +1,7 @@
 ---
 title: 'In progress: Model response evaluation'
 date: 2019-5-31 16:21:13
-category: 'competitor-analysis'
+category: 'testing and evaluation'
 ---
 
 _Current full data set count: 2510_

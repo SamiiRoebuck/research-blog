@@ -1,7 +1,7 @@
 ---
 title: 'Competitor: Leeds.gov.uk'
 date: 2019-5-31 16:21:13
-category: 'competitor-analysis'
+category: 'competitor analysis'
 ---
 
 The Leeds Council website is the official source of recycling information for residents within the Leeds area.
