@@ -32,14 +32,28 @@ This category is also very consistent, however, as aforementioned there is an is
 
 _Current data set count: 310_
 
+This category performs surprisingly well considering the comparatively small subset of the data, consistently correctly predicting standard brown cardboard such as parcel packaging.
+
+However, there are instances where there are varying incorrect predictions. This usually occurs when the cardboard is heavily printed on, such as cereal boxes, or appears to have a shiny coating under certain lighting conditions.
+
+More variants of printed cardboard will be added to the dataset, along with images in varying lighting conditions in an attempt to prevent these incorrect predictions.
+
 ### Metal
 
 _Current data set count: 292_
 
-There is differing levels of success when predicting metals, when the item is something akin to a tin, bottle cap or can the successful predication level is quite high, especially considering the relatively low amount of image in the dataset assigned to this category. However where the preictions in this category fail are when it is tested on items such reusable metal water bottles or metal lunch boxs, broadly speaking items that are traditionally plastic.
+There is differing levels of success when predicting metals, when the item is something akin to a tin, bottle cap or can the successful predication level is quite high, especially considering the relatively low amount of image in the dataset assigned to this category. However where the predictions in this category fail are when it is tested on items such reusable metal water bottles or metal lunch boxes, broadly speaking items that are traditionally plastic.
 
-Because of this there will need to be a much higher percentage of this section of the dataset commited to training the model on these items so that it can disinguish them from items that may be the same shape but are a different material
+Because of this there will need to be a much higher percentage of this section of the dataset committed to training the model on these items so that it can distinguish them from items that may be the same shape but are a different material.
+
+Additionally, there are varying levels of success when the label is still attached to tin cans, in this case the model will occasionally predict that the item is paper. More images of tin cans with labels still attached will be added.
+
+Metal being the smallest subsection of the dataset, this category needs a far amount more adding for consistently correct predictions.
 
 ### Paper
 
 _Current data set count: 490_
+
+The paper predictions are consistently correct, with the main exception being that it can occasionally be mistaken for cardboard if it's not plain paper.
+
+This is a simple fix as it simply requires more variants of paper added to the dataset.
