@@ -1,6 +1,6 @@
 ---
 title: 'Market evaluation: Google Auto ML v IBM Watson'
-date: 2019-5-31 16:21:13
+date: 2019-9-31 16:21:13
 category: 'competitor analysis'
 ---
 
