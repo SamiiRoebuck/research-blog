@@ -6,12 +6,12 @@ import { Layout } from '../layout'
 import { Head } from '../components/head'
 import { PostTitle } from '../components/post-title'
 import { PostContainer } from '../components/post-container'
-import { SocialShare } from '../components/social-share'
-import { SponsorButton } from '../components/sponsor-button'
+// import { SocialShare } from '../components/social-share'
+// import { SponsorButton } from '../components/sponsor-button'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
-import { Utterences } from '../components/utterances'
+// import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 
 import '../styles/code.scss'
@@ -24,30 +24,30 @@ export default ({ data, pageContext, location }) => {
 
   const post = data.markdownRemark
   const metaData = data.site.siteMetadata
-  const { title, comment, siteUrl, author, sponsor } = metaData
-  const { disqusShortName, utterances } = comment
+  const { title, comment, siteUrl } = metaData
+  // const { disqusShortName, utterances } = comment
 
   return (
     <Layout location={location} title={title}>
       <Head title={post.frontmatter.title} description={post.excerpt} />
       <PostTitle title={post.frontmatter.title} />
       <PostContainer html={post.html} />
-      <SocialShare title={post.frontmatter.title} author={author} />
-      {!!sponsor.buyMeACoffeeId && (
+      {/* <SocialShare title={post.frontmatter.title} author={author} /> */}
+      {/* {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
-      )}
+      )} */}
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
-      {!!disqusShortName && (
+      {/* {!!disqusShortName && (
         <Disqus
           post={post}
           shortName={disqusShortName}
           siteUrl={siteUrl}
           slug={pageContext.slug}
         />
-      )}
-      {!!utterances && <Utterences repo={utterances} />}
+      )} */}
+      {/* {!!utterances && <Utterences repo={utterances} />} */}
     </Layout>
   )
 }
@@ -59,13 +59,6 @@ export const pageQuery = graphql`
         title
         author
         siteUrl
-        comment {
-          disqusShortName
-          utterances
-        }
-        sponsor {
-          buyMeACoffeeId
-        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
