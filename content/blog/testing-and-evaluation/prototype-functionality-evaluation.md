@@ -1,5 +1,5 @@
 ---
-title: 'In progress: Model response evaluation'
+title: 'In progress model response evaluation'
 date: 2020-1-20 16:21:13
 category: 'testing and evaluation'
 ---

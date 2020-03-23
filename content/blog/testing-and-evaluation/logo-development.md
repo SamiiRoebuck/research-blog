@@ -1,6 +1,6 @@
 ---
 title: 'Logo development and evaluation'
-date: 2020-2-26 09:19:13
+date: 2019-11-26 09:19:13
 category: 'testing and evaluation'
 ---
 
@@ -24,6 +24,16 @@ Below is the refined version of the typographic logo. The lines of all the lette
 
 This version looks far cleaner and more finished and I think it is more readable that the original version of the typographic logo. I also think it is truer to the inspiration of stencil letters in this iteration.
 
-I am very happy with the logo in this current iteration, but I will seek feedback on it from potential users and other designers to get further suggestions on improvement, especially on the spacing of the lettering as I am unsure in they are too close together in this iteration and should be moved further apart.
+I am very happy with the logo in this current iteration, but I will seek feedback on it from potential users and other designers to get further suggestions on improvement.
 
 ![Refined typographic logo](../images/refined.png)
+
+After refining the logo design, the refined logo design was taken to be evaluated by potential users and other designers.
+
+An main responce to the refiend version of the logo was that the letters was very close together and it hindered the readability of the logo. A common reponse was also that they preferred the white letter logo on the teal/green background over reverse as it is more cohesive with the app icon.
+
+From this feedback, the logo has since been updated with further spacing between the letters to improve readability and from the feeback regarding prefering the logo with the backing colour, I will endevor to use this version of the logo wherever possible.
+
+Below is the final iteration of the logo along with the app icon.
+
+![Finished logo](../images/logo-forblog.png)

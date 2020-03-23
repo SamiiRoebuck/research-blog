@@ -1,10 +1,10 @@
 ---
-title: 'Category Update'
+title: 'Potential Category Change'
 date: 2020-2-27 18:21:13
 category: 'testing and evaluation'
 ---
 
-After completing the prototype, experiencing the time needed to generate enough data to train a sufficient model, and taking time to resort over the different categories of recyclables on the Leeds.gov website, I have reevaluated what categories are necessary for Kerbit to be a functional product as well as minimising the number of categories that need to be made.
+After completing the prototype, experiencing the time needed to generate enough data to train a sufficient model, and taking time to re-sort over the different categories of recyclables on the Leeds.gov website, I have re-evaluated what categories are necessary for Kerbit to be a functional product as well as minimising the number of categories that need to be made.
 
 ### Categories for green bin recyclables
 
@@ -31,9 +31,4 @@ _Broad categories_
 
 \* _These broad categories may need to be further segmented if there are high percentages of confusion during model training. However, the responce given to the user will still be the broad category title_
 
-_Specific categories_
-
-- Disposable cups
-- Batteries
-- Lightbulbs
-- Crisp Packets
+With this new category set, I will create a survey to determine the recycling behaviour and knowledge from the demographic and determine if anymore catoregies need to be added or changed.
