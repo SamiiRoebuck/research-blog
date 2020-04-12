@@ -20,13 +20,13 @@ The additional time needed to learn the languages and develop for the two separa
 
 This table from Biørn-Hansen et al (2017) show a good base of the differing levels of functionality ignoring the native column as this has already been ruled out as an option, but there have been some changes since when this was published. Most notably, the cross-platform compatibility is now fully supported with PWA's as Safari now supports service workers. Additionally, the hardware and platform API access has greatly advanced since the publishing of this article with many web API's and HTML5 API being fully functional in the standalone or fullscreen modes the PWA's run in.
 
-table
+![App type feature comparison](../images/features.png)
 
 Given that there is not a large variance in the ability of each of the app development types, other comparisons of the app types will have to be considered.
 
 ### Install size, launch and render time
 
-table
+![nstall size, launch and render time table](../images/speed.png)
 
 The above table displays the time taken to 'installation size, launch time and render time' (Biørn-Hansen et a, 2017, p.348). This table shows the two major drawbacks in using hybrid apps, is that there are performance issues that arrise due to the 'extra layer between the source codes which may cause a lack of performance' (Jaman, 2019). Additionally, it show a signifiant issue with interpreted apps in that they are far larger than the rest to install on to a users device. For the PWA, is show an issue with render time when the browser is not running in the background (shown as (a) on the table), however, there is still a reasonable render time when the browser is running in the background (shown as (b) on the table).
 
@@ -34,7 +34,7 @@ The above table displays the time taken to 'installation size, launch time and r
 
 Because of the variance in the speed of render time for the interpreted, hybrid and PWA's more detail on the speed of each type of app is needed.
 
-table
+![Additional speed matrix](../images/speed-extra.png)
 
 _EIL: estimated input latency_
 
