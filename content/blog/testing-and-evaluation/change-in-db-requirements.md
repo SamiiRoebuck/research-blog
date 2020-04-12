@@ -11,3 +11,5 @@ However, after doing some development with the Google Maps API I have discovered
 After determining that loading GeoJSON data would better suited to the app than having to query a database I researched into if there was any open datasets that already held any of this data. Luckily, a dataset released under a UK Open Government Licence contains the location data for all 'bring sites' in and around Leeds, which with a few formatting changes and the removal of unnecessary data this will be the perfect data to load into the map.
 
 The dataset can be found [here](https://datamillnorth.org/dataset/bring-sites) along with the information regarding the licensing and attribution of the data.
+
+Because of the removal of the need for the dataset it was also determined that having a database just to store the users previous search, the example of which can be seen in the original design for the app, would add unnecessary bloat to the app for such a small part of Kerbit so this part of that app has been removed too.

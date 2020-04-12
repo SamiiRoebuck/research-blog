@@ -15,12 +15,14 @@ category: 'testing and evaluation'
 1.  Any way to turn off the red oval around the time?
 2.  Double tap zooms on all pages, can this be disabled?
 3.  I’d expect pressing the Kerbit logo at the top would take you to the home screen
+4.  What can the App actually recognise? Would like to know what things Kerbit actually knows so don't waste time on other things
 
 _Changes/Actions:_
 
 1. Unfortunately this is an inbuilt iOS feature that is used to let the user know when the camera is being accessed by a browser so cannot be changed
 2. This will have to be investigated as to whether it can be stopped
 3. Noted, the Kerbit logo will return to the initial screen where a new photo can be taken
+4. Information of what Kerbit can do could be added in with the how to section so users have a better idea of what Kerbit can be used for
 
    ***
 
