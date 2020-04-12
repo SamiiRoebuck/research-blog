@@ -4,6 +4,8 @@ date: 2019-9-31 16:21:13
 category: 'competitor analysis'
 ---
 
+Upon starting this project, the decision as to which machine learning suite would be used to train a new model off. To do this, I conducted a MoSCoW anaylsis of the two main competitors in the consumer grade machine learning market: Google AutoML and IBM Watson
+
 ## Intended features required from the API
 
 | MoSCoW   | Feature                                                                      | Reason                                                                                                                                                                                                                                                                                                     | Google AutoML | IBM Watson |
