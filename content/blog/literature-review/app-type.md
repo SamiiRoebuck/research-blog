@@ -1,6 +1,6 @@
 ---
-title: 'App Development Comparison'
-date: 2009-11-22 13:11:11
+title: 'App Development Types'
+date: 2019-11-22 13:11:11
 category: 'literature review'
 ---
 
