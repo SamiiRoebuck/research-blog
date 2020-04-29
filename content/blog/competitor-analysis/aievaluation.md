@@ -4,7 +4,7 @@ date: 2019-9-31 16:21:13
 category: 'competitor analysis'
 ---
 
-Upon starting this project, the decision as to which machine learning suite would be used to train a new model off. To do this, I conducted a MoSCoW anaylsis of the two main competitors in the consumer grade machine learning market: Google AutoML and IBM Watson
+Upon starting this project, the decision as to which machine learning suite would be used to train a new model off was decided. To do this, I conducted a MoSCoW anaylsis of the two main competitors in the consumer grade machine learning market: Google AutoML and IBM Watson
 
 ## Intended features required from the API
 
@@ -18,4 +18,4 @@ Upon starting this project, the decision as to which machine learning suite woul
 | Could    | A base model that has already been pre-trained that can be extended upon     | Because having a model that can be built upon rather than starting from scratch will be quicker                                                                                                                                                                                                            | &#x2612;      | &#x2612;   |
 | Will not | Have the model being deployed only on the cloud                              | As the web app will be a PWA, the model will need to be downloaded and deployed for edge devices to work offline                                                                                                                                                                                           | &#x2612;      | &#x2611;   |
 
-From this MoSCoW analyse of the two most popular tools for creating custom machine learning models, it is clear that the most logical option to go for is Google AutoML, this is due to the Google API meeting all of the must have features and IBM Watson only being able to deploy models on the cloud which is not suitable for this project.
+From this MoSCoW analysis of the two most popular tools for creating custom machine learning models, it is clear that the most logical option to go for is Google AutoML, this is due to the Google API meeting all of the must have features and IBM Watson only being able to deploy models on the cloud which is not suitable for this project.

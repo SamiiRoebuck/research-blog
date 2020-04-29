@@ -63,7 +63,7 @@ _User responses:_
 
 _Changes/Actions_
 
-1.  When making this I assumed that the people going to this screen would be there to submit the form tthat Kerbit got something wrong, once submitted that gives the way off this screen. Will have to implement a cancel button or something similar for users who unintentionally ended up at this point or have changed their mind and don't want to submit.
+1.  When making this I assumed that the people going to this screen would be there to submit the form that Kerbit got something wrong, once submitted that gives the way off this screen. Will have to implement a cancel button or something similar for users who unintentionally ended up at this point or have changed their mind and don't want to submit.
 2.  Will have to investigate this and see what can stop it, will likely just have to disable any overflow scrolling.
 
 ---

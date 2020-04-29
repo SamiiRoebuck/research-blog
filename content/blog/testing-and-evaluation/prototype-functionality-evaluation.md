@@ -8,7 +8,7 @@ _Current full data set count: 2510_
 
 At this point, the image set from which the model is trained of mainly consists of clear images, with the subject central to the image with a plain background. This was purposeful done for the purpose of getting a functional version of the model working for the prototype and to see how consistent/correct the model could be made and whether it was possible to develop the level of functionality required for the project.
 
-However, because of this the predications are less successful when the photo submitted has a messy background, is blurry or the image contains multiple items
+However, because of this the predications are less successful when the photo submitted has a messy background, is blurry or the image contains multiple items.
 
 There are still categories I wish to add to the model: these include Tetrapaks, aerosols, and if time permitting, larger items such as furniture.
 
@@ -16,7 +16,7 @@ There are still categories I wish to add to the model: these include Tetrapaks, 
 
 _Current data set count: 730_
 
-This is the most consistently correct category in terms of the predications from the model, this is very clearly due to the fact that it has the largest subsection of the dataset attributed to it.
+This is the most consistently correct category in terms of the predictions from the model, this is very clearly due to the fact that it has the largest subsection of the dataset attributed to it.
 
 One very positive outcome of this section of the training is that under optimum conditions (plain background, clear image etc) the model is able to recognise items such as glass beakers/pint glasses as being within the glass category even though the majority of the glass dataset is of glass bottles. This is promising as it shows that the current dataset is sufficient for the machine learning API make successful predications without direct learning material.
 

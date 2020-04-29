@@ -4,7 +4,7 @@ date: 2020-2-26 09:19:13
 category: 'competitor analysis'
 ---
 
-Leeds bins is an app that allows users to add bin day reminders to the phone calendar and shows them the nearest recycling centre based on their location. It also has links to waste related information such as what do do if your are missing a bin, this may be a feature that would be good to implement in Kerbit as these may be the kind of queries that the users may have and including them in the app will mean the user shouldn't have to go searching for the information. It also has a link to the What Goes Where for further information about how to recycle particular items.
+Leeds bins is an app that allows users to add bin day reminders to their phone calendar and shows them the nearest recycling centre based on their location. It also has links to waste related information such as what do do if your are missing a bin, this may be a feature that would be good to implement in Kerbit as these may be the kind of queries that the users may have and including them in the app will mean the user shouldn't have to go searching for the information. It also has a link to the What Goes Where for further information about how to recycle particular items.
 
 ---
 
@@ -14,13 +14,13 @@ The app does not implement their own solution to providing users with informatio
 
 ### _Fix_
 
-Kerbit will implement is own system of letting users know what items can be recycled and where they can be recycled rather than using a system that is already flawed
+Kerbit will implement its own system of letting users know what items can be recycled and where they can be recycled rather than using a system that is already flawed
 
 ---
 
 ### _Issue_
 
-The design of Leeds Bins is relatively uninspired, it looks rather generic and it's very interesting to look at. The colour palette used is not very good, it consists of quite a bright orange, a contrasting blue and a dark grey.
+The design of Leeds Bins is relatively uninspired, it looks rather generic and it's not very interesting to look at. The colour palette used is not very good, it consists of quite a bright orange, a contrasting blue and a dark grey.
 
 ### _Fix_
 

@@ -28,7 +28,7 @@ Given that there is not a large variance in the ability of each of the app devel
 
 ![nstall size, launch and render time table](../images/speed.png)
 
-The above table displays the time taken to 'installation size, launch time and render time' (Biørn-Hansen et a, 2017, p.348). This table shows the two major drawbacks in using hybrid apps, is that there are performance issues that arrise due to the 'extra layer between the source codes which may cause a lack of performance' (Jaman, 2019). Additionally, it show a signifiant issue with interpreted apps in that they are far larger than the rest to install on to a users device. For the PWA, is show an issue with render time when the browser is not running in the background (shown as (a) on the table), however, there is still a reasonable render time when the browser is running in the background (shown as (b) on the table).
+The above table displays the time taken for 'installation size, launch time and render time' (Biørn-Hansen et a, 2017, p.348). This table shows the two major drawbacks in using hybrid apps, is that there are performance issues that arrise due to the 'extra layer between the source codes which may cause a lack of performance' (Jaman, 2019). Additionally, it shows a signifiant issue with interpreted apps in that they are far larger than the rest to install on to a users device. For the PWA, it shows an issue with render time when the browser is not running in the background (shown as (a) on the table), however, there is still a reasonable render time when the browser is running in the background (shown as (b) on the table).
 
 ### Additional speed metrics
 
@@ -38,11 +38,11 @@ Because of the variance in the speed of render time for the interpreted, hybrid 
 
 _EIL: estimated input latency_
 
-In the above table Kvist and Mathiasson (2019) detail the fastest to slowest apps on varying measures. Focusing on the PWA and Cordova (hybrid app) results, the PWA app tested was most frequently the fastest in the majority of categories, rating as the fastest in 4 of the 7 categories and was only deemed as the slowest once. Where as, the Cordova app which did rate the fasted in 3 of the categories, but was also the slowest in another 3 categories, this is another example of the aforementioned performance issues associated with hybrid apps.
+In the above table Kvist and Mathiasson (2019) detail the fastest to slowest apps on varying measures. Focusing on the PWA and Cordova (hybrid app) results, the PWA app tested was most frequently the fastest in the majority of categories, rating as the fastest in 4 of the 7 categories and was only deemed as the slowest once. Where as, the Cordova app which did rate the fastest in 3 of the categories, but was also the slowest in another 3 categories, this is another example of the aforementioned performance issues associated with hybrid apps.
 
 ## Conclusion
 
-Considering that progressive web apps have both the smallest install size, the fastest launch time.a reasonable render time when the browser is loaded in the background, and the best overall speed in a number of different loading metrics, it has been determined that a progressive web app is the best way to proceed with the development of Kerbit.
+Considering that progressive web apps have both the smallest install size, the fastest launch time, a reasonable render time when the browser is loaded in the background, and the best overall speed in a number of different loading metrics, it has been determined that a progressive web app is the best way to proceed with the development of Kerbit.
 
 ## References
 

@@ -29,6 +29,6 @@ _Broad categories_
 - Electricals\* (covering items such as toasters, kettles, tv's)
 - Textiles (covering items such as clothing, bedding, soft furnishing)
 
-\* _These broad categories may need to be further segmented if there are high percentages of confusion during model training. However, the responce given to the user will still be the broad category title_
+\* _These broad categories may need to be further segmented if there are high percentages of confusion during model training. However, the response given to the user will still be the broad category title_
 
 With this new category set, I will create a survey to determine the recycling behaviour and knowledge from the demographic and determine if anymore catoregies need to be added or changed.

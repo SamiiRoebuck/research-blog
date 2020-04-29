@@ -5,11 +5,11 @@ category: 'testing and evaluation'
 ---
 
 From the evaluation of the last iteration of the model
-([post can be viewed here](https://blog.samroebuck.dev/testing-and-evaluation/current-model/)) and testing of the app, I have determined that the accuracy of the kitchenwares catergory (originally called homewares but changed because kitchenwares was more representative) is too low to be acceptable in production.
+([post can be viewed here](https://blog.samroebuck.dev/testing-and-evaluation/current-model/)) and testing of the app, I have determined that the accuracy of the kitchenwares catergory (originally called homewares, that has been changed because kitchenwares was more representative) is too low to be acceptable in production.
 
 ### Problem
 
-Upon reviewing the dataset from which this category was trained upon and the confusion matrix from the associated model, I have determined that the reason for the low level of accuracy in this category is that there is too much variation in the objects labelled as kitchenware, the category contains a broad range of things from pans, to cutlery to cups etc. Because of this there is too much area of confusion for one single category to be sufficient.
+Upon reviewing the dataset from which this category was trained upon and the confusion matrix from the associated model, I have determined that the reason for the low level of accuracy in this category is that there is too much variation in the objects labelled as kitchenware, the category contains a broad range of things from pans, to cutlery to cups etc. Because of this there is too much area for confusion within one single category to be sufficient.
 
 This issue was noted as being a potential outcome when determining categories ([post can be viewed here](https://blog.samroebuck.dev/testing-and-evaluation/category-update/)).
 

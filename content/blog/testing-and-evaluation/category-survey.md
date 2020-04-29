@@ -10,8 +10,8 @@ The aims of this survey is take the potential categories that were discussed in 
 
 This is to determine:
 
-1. if all of the categories are necessary, for instance, if paper is alway recycled correctly it may be unnecessary to have an entire category for it.
-2. Which categories are recycled in correctly most often, thus making them more likely to be checked through Kerbit meaning that category has to have a high level of confidence to help stop people recycling wrong.
+1. if all of the categories are necessary, for instance, if paper is always recycled correctly it may be unnecessary to have an entire category for it.
+2. Which categories are recycled incorrectly most often, thus making them more likely to be checked through Kerbit meaning that category has to have a high level of confidence to help stop people recycling wrong.
 3. If there are any additional items that the respondents are unsure of whether they are recyclable.
 
 ### Predicted results
@@ -34,11 +34,11 @@ Tick all the options that you think should go in the green bin.
 
 The most significant results from this graph is:
 
-50% of respondants think that textile waste can go in the green bin (the regular recycling bin).
+50% of respondents think that textile waste can go in the green bin (the regular recycling bin).
 
-Over 60% of respondants think that glass can be recycled in the green bin.
+Over 60% of respondents think that glass can be recycled in the green bin.
 
-A small number of respondants think that homewares and electrical can be recycled in the green bin.
+A small number of respondents think that homewares and electrical can be recycled in the green bin.
 
 ### Q2
 
@@ -48,7 +48,7 @@ Tick all the options that you think should go in the black bin.
 
 The most significant results from this graph is:
 
-50% of respondants think that plastic bags go in the black bin (the general waste bin).
+50% of respondents think that plastic bags go in the black bin (the general waste bin).
 
 In general small to moderate numbers of people think that a good portion of these items, which are all recyclable, should go in the general waste bin.
 
@@ -62,10 +62,10 @@ While this answers in this category are mostly correct, there were a small numbe
 
 ### Takeaways
 
-From the responces to these 3 questions I have determine that:
+From the responses to these 3 questions I have determine that:
 
 - All the proposed categories should stay as they all have instances where people answered incorrectly (aside from furniture which I will come to later).
-- The confidence level of detecting plastic bags, glass and homes needs to be very high as these items are commonly misplaced when recycling
+- The confidence level of detecting plastic bags, glass and homes needs to be very high as these items are commonly misplaced when recycling.
 
 ### Q4
 
@@ -78,6 +78,5 @@ Below are some of the key responces I picked out of the results, as this questio
 
 The key takeaways from these answers are that there are some specific items that people are unsure of, such as batteries, tetra packs, food packaging and coffee cups because of this, I will consider adding specific item categories that cover items like these if the timeframe of the project allows for it.
 
-Additionally, the answer that refers to not being sure where to take things because they don't have a recycling center near by is one of the reasons why I'm keeping the furniture category in. As although it was answered correctly in all of the survey responses, the responce that Kerbit will give when shown furniture will show users their nearest recycling centre or point and I think it is best to maximise the responses where users will the shown this information if it is an issues for some people.
+Additionally, the answer that refers to not being sure where to take things because they don't have a recycling center near by is one of the reasons why I'm keeping the furniture category in. As although it was answered correctly in all of the survey responses, the response that Kerbit will give when shown furniture will show users their nearest recycling centre or point and I think it is best to maximise the responses where users will the shown this information if it is an issues for some people.
 
--

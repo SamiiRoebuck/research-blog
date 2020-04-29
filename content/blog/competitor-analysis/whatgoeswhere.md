@@ -10,7 +10,7 @@ What Goes Where provides the same informations as the Leeds Council website in a
 
 ### _Issue_
 
-While the information is displayed in a more user-friendly way, with common items such as tins and cardboard being easily accessible in one click, the pages do eventually redirect to the Leeds Council website if the user requires more information so still suffers from the same issues of having long pages of bullet points that the prior competitor does.
+While the information is displayed in a more user-friendly way, with common items such as tins and cardboard being easily accessible in one click, the pages do eventually redirect to the Leeds Council website if the user requires more information so still suffers from the same issues of having long pages of bullet points that the prior competitors do.
 
 ### _Fix_
 

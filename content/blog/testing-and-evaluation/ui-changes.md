@@ -16,7 +16,7 @@ Additionally, the old help button was noted as being confusing in the user testi
 | -------------------------------------------------- | ------------------------------------------------------- |
 | ![Original control bar](../images/control-old.png) | ![Original control bar](../images/control-collapse.png) |
 
-The decision was made to replaced the flash button with a contact button, originally this option was only available after taking a photo and receiving the prediction. This was chosen as the replacement as this is for reporting any issues with Kerbit or any additional categories that users would like to have added to what Kerbit can identify, thus I believe it makes sense for users to be able to access this at anytime rather than only after they have received a prediction.
+The decision was made to replace the flash button with a contact button, originally this option was only available after taking a photo and receiving the prediction. This was chosen as the replacement as this is for reporting any issues with Kerbit or any additional categories that users would like to have added to what Kerbit can identify, thus I believe it makes sense for users to be able to access this at anytime rather than only after they have received a prediction.
 
 Because this contact option used to be available as part of the response view, this part of this UI has also been change to prevent and duplicate buttons that may cause confusion.
 
