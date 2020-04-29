@@ -46,6 +46,6 @@ It is also worth noting that certain confusion points are irrelavant to the fina
 
 To summarise, the model is progressing in a exceptionally positive way and with a good level of accuracy. Especially when considering that while most models will reach higher levels of accuracy, they are either trained by teams of academics for research purposes over large amounts of time or by large corporations with lots of development experience and this is been entirely trained by one person.
 
-I am very happy with the model accuracy when using the app and while it will never be 100% accurate all the time as machine learning is not perfect I would say that under current usage it is accurate about 80% of the time and I am very happy with that.
+I am very happy with the model accuracy when using the app and while it will never be 100% accurate all the time as machine learning is not perfect I would say that under current usage it is accurate between 70%-80% of the time and I am very happy with that.
 
 There is still another category to add, which is the fabric/textile category, which will be added shortly once the data collection for this category has finished and has been reviewed.
