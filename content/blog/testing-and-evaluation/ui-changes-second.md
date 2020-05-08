@@ -6,7 +6,7 @@ category: 'testing and evaluation'
 
 After the responses from the second round of user testing, (which ideally would have consisted of more participants but accessing groups people for user testing is somewhat undoable in the current pandemic) there have been some changes to the user interface of the app.
 
-## main control bar changes
+## Main control bar changes
 
 In the user testing, the participant noted that the question mark button did not show clearly that it would collapse that section. This was due to this functionally not being fully implemented at the time of testing, that it was odd that a photo could be taken when the help section was active, and that there was no response when the camera access was denied and they were still able to take a photo.
 
